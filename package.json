@@ -1,0 +1,31 @@
+{
+  "name": "kuberep-dependabot-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept repository to test Dependabot issue #13042 - commit message sanitization for @ symbols",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dependabot",
+    "kubernetes",
+    "poc"
+  ],
+  "author": "KravMaguy",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/core": "^16.0.0",
+    "@angular/common": "^16.0.0",
+    "@mui/material": "^5.0.0",
+    "@types/node": "^18.0.0",
+    "@babel/core": "^7.0.0",
+    "@vue/cli": "^5.0.0",
+    "react": "^18.0.0",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.0.0",
+    "@types/jest": "^29.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0"
+  }
+}
