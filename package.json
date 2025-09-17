@@ -16,7 +16,7 @@
   "dependencies": {
     "@angular/core": "^16.0.0",
     "@angular/common": "^16.0.0",
-    "@mui/material": "^5.0.0",
+    "@mui/material": "^7.3.2",
     "@types/node": "^18.0.0",
     "@babel/core": "^7.0.0",
     "@vue/cli": "^5.0.0",
