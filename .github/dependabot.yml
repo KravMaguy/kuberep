@@ -1,0 +1,30 @@
+# Dependabot configuration file for testing issue #13042
+# This configuration will cause Dependabot to create PRs with commit messages
+# containing "@" symbols from package names like @angular/core, @mui/material, etc.
+# 
+# Issue: https://github.com/dependabot/dependabot-core/issues/13042
+# The proposed solution would add a "substitutions" field to sanitize commit messages
+
+version: 2
+updates:
+  # Maintain npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+    # This is the proposed feature from issue #13042:
+    # substitutions:
+    #   - from: "@"
+    #     to: "_at_"
+    #   - from: "#"  
+    #     to: "_hash_"
+    
+    # Additional settings for testing
+    open-pull-requests-limit: 5
+    reviewers:
+      - "KravMaguy"
