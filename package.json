@@ -14,7 +14,7 @@
   "author": "KravMaguy",
   "license": "MIT",
   "dependencies": {
-    "@angular/core": "^16.0.0",
+    "@angular/core": "^20.3.3",
     "@angular/common": "^16.0.0",
     "@mui/material": "^5.0.0",
     "@types/node": "^18.0.0",
